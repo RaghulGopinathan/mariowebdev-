@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    padding-top:100px;
+    width:100%;
+    text-align: center;
+    background: url(img/successimg.jpg) no-repeat 50% 50%;
+    background-size: 100% 160%;
+}

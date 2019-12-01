@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding-top:100px;
+    width:100%;
+    text-align: center;
+    background: url(img/signupimg.jpg) no-repeat 50% 50%;
+    background-size: 100% 150%;
+}
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+label{
+	float:left;
+}
+.panel{
+	
+	position: absolute;
+	top:40%;
+	left:40%;
+}
+
+h3{
+	color:white;
+}
+#menu{
+    margin:0;
+    padding:0;
+    position: absolute;
+    top:0px;
+    left:69%;
+    bottom:0px;
+    
+}
+#menu li{
+list-style:none;
+display :inline-block;
+top:0px;
+
+}
+#menu li a{
+    text-decoration: none;
+    position: relative;
+    color:white;
+    font-size:20px;
+    font-weight: 50;
+    font-family: sans-serif;
+    display:block;
+    overflow:hidden;
+    transition:0.7s all;
+    padding:14px 20px;
+    text-transform: uppercase;
+    
+}
+#menu li a:before{
+    content: '';
+    width:50px;
+    position: absolute;
+    border-bottom: 8px solid black;
+    bottom:0px;
+    right:350px;
+    transition: 0.7s all;
+}
+#menu li a:hover:before{
+    right:0;
+}    
+.na{
+    margin-top: 20px;
+    text-decoration: none;
+    position:absolute;
+    float:left;
+    color:white;
+    font-size:20px;
+    font-weight: 50;
+    font-family: sans-serif;
+    display:block;
+    overflow:hidden;
+    transition:0.7s all;
+    text-transform: uppercase;
+    top:2%;
+    left:2%;
+}
